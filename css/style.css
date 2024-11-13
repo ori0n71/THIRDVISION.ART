@@ -5,7 +5,7 @@
 /* Basic */
 
 body {
-	background-color: #ebeae9;
+	background-color: #fcfcfc;
 }
 
 html {
@@ -127,6 +127,7 @@ h2 {
 	display: inline-block;
 	position: relative;
 	text-align: center;
+	align-content: center;
 	color: #000;
 	text-decoration: none;
 	font-size: 20px;
@@ -665,6 +666,7 @@ h2 {
 	background-color: #ebeae9;
 	color: #000;
 	padding-bottom: 11rem;
+	padding-left: 50px;
 }
 
 .contact-form .btn-primary {
@@ -686,7 +688,7 @@ h2 {
 }
 
 .form-control {
-	padding: 1.5rem .75rem;
+	padding: 1.5rem 0.75rem;
 	font-family: Rubik;
 	font-weight: 500;
 	font-size: 1rem;
@@ -722,3 +724,47 @@ h2 {
 	text-decoration: none;
 	color: #000;
 }
+
+form { max-width:400px; }
+
+.feedback-input {
+  color: #212529;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 3px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #b7b7b7;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #354e68; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#354e68;
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  color:white;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover { background:#354e68; }
