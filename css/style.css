@@ -768,3 +768,55 @@ textarea {
   font-weight: 700;
 }
 [type="submit"]:hover { background:#354e68; }
+
+[type="submit2"] {
+	font-family: 'Rubik', Arial, Helvetica, sans-serif;
+	width: 100%;
+	background:#212529;
+	border-radius: 3px;
+	border: 0;
+	cursor: pointer;
+	color:white;
+	font-size: 1rem;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.3s;
+	margin-top: -4px;
+	font-weight: 700;
+  }
+  [type="submit"]:hover { background:#212529; }
+
+  [type="portfolio"] {
+	font-family: 'Rubik', Arial, Helvetica, sans-serif;
+	width: fit-content;
+	background:#212529;
+	border-radius: 3px;
+	border: 0;
+	cursor: pointer;
+	color:white;
+	font-size: 1rem;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	transition: all 0.3s;
+	margin-top: -4px;
+	font-weight: 700;
+  }
+  [type="submit"]:hover { background:#212529; }
+
+.submit {
+	font-family: 'Rubik', Arial, Helvetica, sans-serif;
+	width: 100%;
+	background:#354e68;
+	border-radius: 3px;
+	border: 0;
+	cursor: pointer;
+	color:white;
+	font-size: 1rem;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.3s;
+	margin-top: -4px;
+	font-weight: 700;
+}
